@@ -50,11 +50,11 @@ CLASSIFIERS = [
 ]
 
 DEPENDENCIES = [
-    'azure-batch~=8.0',
     'azure-cli-command_modules-nspkg~=2.0',
     'azure-cli-core=={}.*'.format(VERSION),
     'azure-cli-nspkg~=3.0,>=3.0.3',
     'azure-cli-telemetry>=1.0.2,<2.0',
+    'azure-batch~=8.0',
     'azure-cosmos~=3.0,>=3.0.2',
     'azure-datalake-store~=0.0.48',
     'azure-functions-devops-build~=0.0.22',
